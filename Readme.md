@@ -88,7 +88,7 @@ my-react-app
 
 `npm link <my-component-name>` 
 
-````typescript
+```typescript
 import React from 'react';
 //import { Button } from '../../src/index';
 import { Button } from 'eta-base';
@@ -109,6 +109,7 @@ function App() {
 
 export default App;
 ```
+
 
 Start your App to see your component
 
