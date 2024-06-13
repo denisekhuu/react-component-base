@@ -15,11 +15,14 @@ Create a `src` folder and add your components.
 Clone this repository using 
 `git clone https://github.com/denisekhuu/react-component-base.git`
 
+```bash
 mycomponent
 ├── src/
 ├── package.json
 ├── tsconfig.json
 └── webpack.config.js
+
+```
 
 In package.json, change the following configurations to your liking
 
@@ -60,6 +63,7 @@ In package.json, change the following configurations to your liking
 
 # Test Locally
 
+```bash
 mycomponent
 ├── src/
 ├── package.json
@@ -69,7 +73,7 @@ mycomponent
 my-react-app
 ├── src/
 ...
-
+```
 
 1. Install the needed Dependencies
 
