@@ -63,7 +63,7 @@ In package.json, change the following configurations to your liking
 # Test Locally
 
 ```bash
-mycomponent
+<package-name>
 ├── src/
 ├── package.json
 ├── tsconfig.json
@@ -95,7 +95,7 @@ my-react-app
 ```typescript
 import React from 'react';
 //import { Button } from '../../src/index';
-import { Button } from 'eta-base';
+import { Button } from '<package-name>';
 
 import './App.css';
 
