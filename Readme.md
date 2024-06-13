@@ -14,6 +14,7 @@ Create a `src` folder and add your components.
 
 Clone this repository using 
 `git clone https://github.com/denisekhuu/react-component-base.git`
+
 ```bash
 mycomponent
 ├── src/
@@ -61,9 +62,7 @@ In package.json, change the following configurations to your liking
 
 # Test Locally
 
-
 ```bash
-
 mycomponent
 ├── src/
 ├── package.json
@@ -73,9 +72,6 @@ mycomponent
 my-react-app
 ├── src/
 ...
-
-```
-
 
 1. Install the needed Dependencies
 
@@ -94,7 +90,7 @@ my-react-app
 
 `npm link <my-component-name>` 
 
-````typescript
+```typescript
 import React from 'react';
 //import { Button } from '../../src/index';
 import { Button } from 'eta-base';
@@ -116,8 +112,12 @@ function App() {
 export default App;
 ```
 
+
 Start your App to see your component
 
 ```bash
 npm start
 ```
+
+For a tutorial how to create the base from scratch:
+https://github.com/denisekhuu/denisekhuu.github.io/blob/main/tutorials/create-a-react-component.md
