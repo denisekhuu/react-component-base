@@ -111,3 +111,6 @@ Start your App to see your component
 ```bash
 npm start
 ```
+
+for a tutorial how to create the base from scratch:
+https://github.com/denisekhuu/denisekhuu.github.io/blob/main/tutorials/create-a-react-component.md
