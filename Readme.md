@@ -73,6 +73,8 @@ my-react-app
 ├── src/
 ...
 
+```
+
 1. Install the needed Dependencies
 
   > If we want to use npm link, we need to make sure that react is not included a second time in our dependencies. This is important to avoid bundling multiple versions of React, which can cause issues such as useState not being found. Therefore, run the following to omit them. 
