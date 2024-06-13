@@ -14,16 +14,17 @@ Create a `src` folder and add your components.
 
 Clone this repository using 
 `git clone https://github.com/denisekhuu/react-component-base.git`
-
+```bash
 mycomponent
 ├── src/
 ├── package.json
 ├── tsconfig.json
 └── webpack.config.js
+```
 
 In package.json, change the following configurations to your liking
 
-```
+```json
 {
   "name": <package-name>,
   "version": "1.0.0",
@@ -60,6 +61,9 @@ In package.json, change the following configurations to your liking
 
 # Test Locally
 
+
+```bash
+
 mycomponent
 ├── src/
 ├── package.json
@@ -70,10 +74,16 @@ my-react-app
 ├── src/
 ...
 
+```
+
 
 1. Install the needed Dependencies
 
-`npm install` 
+  > If we want to use npm link, we need to make sure that react is not included a second time in our dependencies. This is important to avoid bundling multiple versions of React, which can cause issues such as useState not being found. Therefore, run the following to omit them. 
+
+`npm install --production --omit=peer` 
+
+
 
 2. Inside your package-folder, use `npm link` to test your package locally. This command allows you to expose your package and use it in local projects as if it were downloaded from npm
 

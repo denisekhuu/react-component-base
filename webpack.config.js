@@ -32,4 +32,8 @@ module.exports = {
       'eta-base': path.resolve(__dirname, 'src'), // Adjust based on your source folder
     },
   },
+  externals: {
+    react: 'react',
+    'react-dom': 'react-dom'
+  },
 };
