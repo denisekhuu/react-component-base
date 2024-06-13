@@ -6,7 +6,7 @@
     "lib": ["dom", "esnext"],
     "outDir": "./dist",
     "module": "commonjs",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
